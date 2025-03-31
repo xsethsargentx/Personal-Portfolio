@@ -141,3 +141,15 @@ nav button {
   align-items: center;
   text-decoration: underline;
 }
+
+.batsImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.batsImg img {
+  width: 38%;
+}
