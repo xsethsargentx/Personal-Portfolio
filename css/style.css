@@ -58,6 +58,11 @@ nav button {
     justify-self: center;
     align-items: center;
     text-decoration: underline;
+    
+}
+
+.socials h2 {
+  padding-top: 5px;
 }
 
 .socialsBox {
@@ -74,7 +79,7 @@ nav button {
 }
 
 .socialsBox button {
-    padding: px;
+    padding-bottom: px;
     border-radius: 10%;
     background-color: #499167;
 }
