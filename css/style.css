@@ -164,5 +164,9 @@ p {
 }
 
 .projectBox {
-  display: flex;
+  text-align: center;
+}
+
+.projectBox img {
+
 }
