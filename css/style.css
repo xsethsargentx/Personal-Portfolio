@@ -167,9 +167,9 @@ p {
   text-align: center;
 }
 
-.projectBox img {
+/* .projectBox img {
 
-}
+} */
 
 @media (min-width: 768px) {
   .aboutMeBox p {
