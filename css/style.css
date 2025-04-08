@@ -37,19 +37,17 @@ list-style: none;
 nav button {
     padding: px;
     border-radius: 10%;
-    background-color: #499167
-    ;
-    
+    background-color: #499167;
 }
 
 .nav a {
     text-decoration: none;
     color: #91F9E5;
   }
-
+  
   /* THIRD ROW */
-
-/* .socialsBox {
+  
+  /* .socialsBox {
     justify-self: center;
     align-items: center;
 } */
@@ -175,5 +173,26 @@ p {
   .aboutMeBox p {
     margin-left: 60px;
     margin-right: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .aboutMeBox p {
+    margin-left: 150px;;
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .aboutMeBox p {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .aboutMeBox p {
+    margin-left: 300px;
+    margin-right: 300px;
   }
 }
