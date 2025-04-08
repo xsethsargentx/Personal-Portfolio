@@ -173,12 +173,27 @@ p {
 
 } */
 
+@media (max-width: 425px) {
+  .aboutMeBox p {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 425px) {
+  .aboutMeBox p {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
 @media (min-width: 768px) {
   .aboutMeBox p {
     margin-left: 60px;
     margin-right: 60px;
   }
 }
+
 
 @media (min-width: 1024px) {
   .aboutMeBox p {
@@ -189,14 +204,14 @@ p {
 
 @media (min-width: 1440px) {
   .aboutMeBox p {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 }
 
 @media (min-width: 2560px) {
   .aboutMeBox p {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 700px;
+    margin-right: 700px;
   }
 }
